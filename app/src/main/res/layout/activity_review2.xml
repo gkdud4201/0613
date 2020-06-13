@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/informText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="리뷰"
+        >
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/listView_main_list" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/textView_main_result" />
+
+    <Button
+        android:id="@+id/reviewwirteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="right|top"
+        android:text=">>리뷰작성하러가기"
+        android:background="@null"
+
+        ></Button>
+
+</LinearLayout>

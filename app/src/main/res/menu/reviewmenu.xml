@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search2"
+        android:title="포인트"
+        android:icon="@drawable/ic_local_parking_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_search3"
+        android:title="좌석"
+        android:icon="@drawable/ic_airline_seat_recline_normal_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="리뷰보기"
+        android:id="@+id/seeReview"/>
+    <item
+        android:title="리뷰쓰기"
+        android:id="@+id/writeReview"/>
+
+</menu>

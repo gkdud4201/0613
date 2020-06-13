@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Information2Activity">
+
+    <TextView
+        android:id="@+id/textView_main_label"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="검색할 카페 이름을 입력해 주세요" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/cafe_search"
+            android:layout_width="0dp"
+            android:layout_weight="0.35"
+            android:hint="카페 이름"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_main_search"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:text="Search" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"
+        android:id="@+id/listView_main_list"/>
+
+    <TextView
+        android:id="@+id/textView_main_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0" />
+
+
+</LinearLayout>

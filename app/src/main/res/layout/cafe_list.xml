@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/cafename"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_location_on_black_24dp">
+
+        </ImageView>
+    <TextView
+        android:id="@+id/cafeaddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_query_builder_black_24dp">
+
+        </ImageView>
+    <TextView
+        android:id="@+id/cafehour"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_airline_seat_recline_normal_black_24dp"></ImageView>
+
+    <TextView
+        android:id="@+id/cafeseats"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_language_black_24dp"></ImageView>
+
+        <TextView
+            android:id="@+id/cafeinsta"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_local_phone_black_24dp"></ImageView>
+
+        <TextView
+            android:id="@+id/cafephone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_check_black_24dp"></ImageView>
+    <TextView
+        android:id="@+id/cafeinform"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+
+</LinearLayout>
+</LinearLayout>

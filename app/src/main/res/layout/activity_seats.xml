@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:background="#FFFFFF"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+    <TextView
+        android:id="@+id/reviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:textSize="20dp"
+        android:text="좌석 관리"
+        ></TextView>
+
+<EditText
+    android:id="@+id/seatsCount"
+    android:text="0"
+    android:textSize="50sp"
+    android:textColor="#000000"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:inputType="number"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    >
+    <Button
+        android:id="@+id/seatsDown"
+        android:text="down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/seatsUp"
+        android:text="up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="5"/>
+
+</LinearLayout>
+<Button
+    android:id="@+id/seatsinitial"
+    android:text="초기화"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_weight="5"/>
+<Button
+    android:id="@+id/seatssave"
+    android:text="저장"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_weight="5"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/textView_result" />
+
+</LinearLayout>
